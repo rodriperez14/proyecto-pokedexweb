@@ -11,6 +11,7 @@ namespace negocio
 {
     public static class Validacion
     {
+        //le agrego un comentario al archivo...
         public static bool validaTextoVacio(object control)
         {
             if (control is TextBox texto)
